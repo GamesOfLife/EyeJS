@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+[[mods]]
+modId = "eyejs"
+version = "1.0.0"
+displayName = "EyeJS"
+authors = "GamesOfLife"
+
+description = '''Make custom structure eyes with KubeJS'''
+
+[[dependencies."eyejs"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."eyejs"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
