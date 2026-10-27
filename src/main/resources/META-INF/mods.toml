@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="eyejs"
+version="${file.jarVersion}"
+displayName="EyeJS"
+authors="GamesOfLife"
+description='''
+Make custom structure eyes with KubeJS
+'''
+[[dependencies.eyejs]]
+   modId="forge"
+   mandatory=true
+   versionRange="[47,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.eyejs]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20.1,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.eyejs]]
+   modId="kubejs"
+   mandatory=true
+   versionRange="[2001.6.4-build.95,)"
+   ordering="NONE"
+   side="BOTH"
